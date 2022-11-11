@@ -1,0 +1,25 @@
+<html>
+<head>
+    <title>Flask - MySQL</title>
+</head>
+<body>
+<h2>Flask - Database</h2>
+<p>Ini make MySQL</p>
+    <table border="1">
+        <tr>
+            <th width=100>Kode Buku </th>
+            <th width=250>Judul Buku </th>
+            <th width=130>Penulis </th>
+            <th width=130>Penerbit </th>
+        </tr>
+        {% for baris in container %}
+        <tr>
+            <td>{{ baris[0] }}</td>
+            <td>{{ baris[1] }}</td>
+            <td>{{ baris[2] }}</td>
+            <td>{{ baris[3] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

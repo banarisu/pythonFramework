@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contoh Upload File</title>
+</head>
+<body>
+<h2>WTF-Form upload file</h2>
+<form method="post" enctype="multipart/form-data">
+    {{ form.file.label }} <br />
+    {{ form.file() }} <br />
+    <p>{{ form.submit() }}</p>
+</form>
+</body>
+</html>

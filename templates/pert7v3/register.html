@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>System Authentication</title>
+</head>
+<body>
+    <form action="" method="POST">
+        Email: <br /><input type="email" name="email" /><br />
+        Username: <br /><input type="text" name="username" /><br />
+        Password: <br /><input type="password" name="password" /><br />
+        <p> <input type="submit" value="Register" </p>
+    </form>
+<h3>Already have an account?</h3>
+    <h3><a href="{{ url_for('index') }}">Login here</a></h3>
+</body>
+</html>

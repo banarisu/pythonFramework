@@ -1,0 +1,30 @@
+<html>
+<head>
+    <title>Flask - SQLite</title>
+</head>
+<body>
+<h2>Flask - Database</h2>
+<p>Ini make SQLite</p>
+    <table border="1">
+        <tr>
+            <th width=60>ID </th>
+            <th width=200>Judul </th>
+            <th width=170>Penulis </th>
+            <th width=170>Penerbit </th>
+            <th width=80>Ubah </th>
+            <th width=80>Hapus </th>
+        </tr>
+        {% for row in container %}
+        <tr>
+            <td>{{ row[0] }}</td>
+            <td>{{ row[1] }}</td>
+            <td>{{ row[2] }}</td>
+            <td>{{ row[3] }}</td>
+            <td><a href="http://localhost:5000/ubah/{{ row[0] }}">Ubah</a></td>
+            <td><a href="http://localhost:5000/hapus/{{ row[0] }}">Hapus</a></td>
+        </tr>
+        {% endfor %}
+    </table>
+<p><a href="http://localhost:5000/tambah">Tambah data</a></p>
+</body>
+</html>
