@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbe39aeb-0c2d-45e7-81ce-718c69bf28ff" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Pertemuan10.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pertemuan10.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pertemuan11.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/pert11/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/pert11/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/pert11/tambah.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -29,7 +33,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2DsJmbL9GgtEW8zLx02PcnhQ8A2" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -60,8 +66,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Pertemuan9v2">
-    <configuration name="Pertemuan 4" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.Pertemuan11">
+    <configuration name="Pertemuan11" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PPWF" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -73,7 +79,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pertemuan 4.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pertemuan11.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -168,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Pertemuan9v2" />
+        <item itemvalue="Python.Pertemuan11" />
         <item itemvalue="Python.Pertemuan9" />
-        <item itemvalue="Python.Pertemuan8 (1)" />
         <item itemvalue="Python.Pertemuan8" />
-        <item itemvalue="Python.Pertemuan 4" />
+        <item itemvalue="Python.Pertemuan9v2" />
+        <item itemvalue="Python.Pertemuan8 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +208,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
