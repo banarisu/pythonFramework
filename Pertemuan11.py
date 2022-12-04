@@ -16,7 +16,6 @@ def openDb():
         db= 'db_penjualan'
     )
     cursor = conn.cursor()
-    print("Connect success")
 
 def closeDb():
     global conn, cursor

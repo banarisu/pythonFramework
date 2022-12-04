@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbe39aeb-0c2d-45e7-81ce-718c69bf28ff" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/pert11/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pert11/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pertemuan11.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pertemuan11.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
