@@ -24,8 +24,8 @@
             <td>{{ row[1] }}</td>
             <td>{{ row[2] }}</td>
             <td>{{ row[3] }}</td>
-            <td><a href="http://localhost:5000/edit/{{row[0]}}" class="btn btnwarning" role="button">Ubah</a></td>
-            <td><a href="http://localhost:5000/hapus/{{row[0]}}" class="btn btndanger" role="button">Hapus</a></td>
+            <td><a href="/edit/{{row[0]}}" class="btn btnwarning" role="button">Ubah</a></td>
+            <td><a href="/hapus/{{row[0]}}" class="btn btndanger" role="button">Hapus</a></td>
         </tr>
         {% endfor %}
         </tbody>

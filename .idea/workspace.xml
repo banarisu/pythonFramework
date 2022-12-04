@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbe39aeb-0c2d-45e7-81ce-718c69bf28ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Pertemuan11.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/pert11/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/pert11/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/pert11/tambah.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/pert11/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pert11/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -200,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668138306885</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="pertemuan 10 update1">
+      <created>1669952793016</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669952793016</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
