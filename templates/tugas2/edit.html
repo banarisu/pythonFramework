@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <title>Edit - Tugas 2 Kelompok 5</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
+<br />
 <div class="container">
     <div class="col-sm-5">
-        <h2>Ubah Data Anggota Kelompok</h2>
+        <h2 class="judul">Ubah Data Anggota Kelompok</h2>
         <form action="url_for('edit', id={{data[0]}})" method="post">
             <div class="form-group">
                 <input type="hidden" name="id" value="{{data[0]}}" class="form-control" />
@@ -25,7 +27,7 @@
                 <label>Jurusan:</label>
                 <input type="text" name="jurusan" value="{{data[3]}}" class="form-control" placeholder="Masukan Jurusan" required />
             </div>
-            <button type="submit" id="Submit" name="submit" class="btn btn-primary">Edit Anggota</button>
+            <button type="submit" id="Submit" name="submit" class="tombol">Edit Anggota</button>
         </form>
     </div>
 </div>

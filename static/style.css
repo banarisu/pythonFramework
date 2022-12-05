@@ -1,0 +1,28 @@
+.judul{
+    margin: 15px;
+}
+
+.tombol{
+    background-color: #d4d4d4;
+    padding: 10px;
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.hapus{
+    background-color: #fa4f3c;
+    padding: 10px;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.ubah{
+    background-color: #3c82fa;
+    padding: 10px;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
