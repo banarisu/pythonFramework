@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index - Tugas 2 Kelompok 5</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<br />
+<div class="container">
+    <h2 class="judul">Tugas Aplikasi CRUD Python Menggunakan Flask</h2>
+    <table class="table table-bordered table-hover">
+        <thead>
+        <tr>
+            <th>Nama</th>
+            <th>NIM</th>
+            <th>Jurusan</th>
+            <th width="10%" colspan="2">Aksi</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for row in container %}
+        <tr>
+            <td>{{ row[1] }}</td>
+            <td>{{ row[2] }}</td>
+            <td>{{ row[3] }}</td>
+            <td><a href="/edit/{{row[0]}}" class="ubah" role="button">Ubah</a></td>
+            <td><a href="/hapus/{{row[0]}}" class="hapus" role="button">Hapus</a></td>
+        </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+    <br />
+    <a href ="/tambah" class="tombol" role="button">Tambah Anggota</a>
+    <a href ="/cetak" class="tombol" role="button">Cetak Tabel</a>
+</div>
+</body>
+</html>

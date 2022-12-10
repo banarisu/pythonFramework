@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bbe39aeb-0c2d-45e7-81ce-718c69bf28ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/style.css" afterDir="false" />
+    <list default="true" id="bbe39aeb-0c2d-45e7-81ce-718c69bf28ff" name="Default Changelist" comment="pertemuan 10 update1">
+      <change afterPath="$PROJECT_DIR$/Pertemuan13.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/pert13/cetak.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/pert13/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/pert13/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/pert13/tambah.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/tugas2/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/tugas2/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/tugas2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/tugas2/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/tugas2/tambah.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/tugas2/tambah.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +68,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.appKelompok5">
+  <component name="RunManager" selected="Python.Pertemuan13">
     <configuration name="Pertemuan11" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PPWF" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -80,6 +82,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pertemuan11.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Pertemuan13" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PPWF" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pertemuan13.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -130,27 +153,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Pertemuan9v2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PPWF" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pertemuan9v2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="appKelompok5" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PPWF" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -174,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Pertemuan13" />
         <item itemvalue="Python.appKelompok5" />
         <item itemvalue="Python.Pertemuan11" />
         <item itemvalue="Python.Pertemuan9" />
         <item itemvalue="Python.Pertemuan8" />
-        <item itemvalue="Python.Pertemuan9v2" />
       </list>
     </recent_temporary>
   </component>
